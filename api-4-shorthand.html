@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Shorthand</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="navbar bg-base-100">
+
+                <div class="flex-none mx-auto gap-2">
+                    <div class="form-control">
+                        <input id="input-filed" type="text" placeholder="Input Link" class="input input-bordered" />
+                    </div>
+                    <div>
+                        <button id="short-btn" class="btn btn-outline btn-success">Shorthand</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="short-link-container" class="w-3/4 mx-auto bg-lime-300 p-10 rounded">
+            <!-- <div class="grid grid-cols-2">
+                <p class="p-3 bg-amber-200">hello</p>
+                <button id="short-btn" class="btn btn-outline btn-success">Copy Link</button>
+            </div> -->
+        </section>
+    </main>
+    <script src="api-4-shorthand.js"></script>
+</body>
+
+</html>
